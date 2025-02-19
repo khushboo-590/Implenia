@@ -1,0 +1,45 @@
+:root{
+/* -----font-size----- */
+--text-sm:16px;
+--text-md-:21px;
+--text-3xl:76px;
+
+/* ---color----- */
+--black-color: #000000;
+--yellow-color: #EBA82C;
+--white-color: #FFFFFF;
+}
+
+.fs-3xl{
+    font-size: var(--text-3xl);
+}
+.fs-md {
+    font-size: var(--text-md);
+}.fs-sm {
+    font-size: var(--text-sm);
+}
+.fc-black{
+    color: var(--black-color);
+}
+.fc-yellow {
+    color: var(--yellow-color);
+}
+.fc-white {
+    color: var(--white-color);
+}
+.bg-white{
+    background: var(--white-color);
+}
+.font-family{
+    font-family: 'Source Sans Pro';
+}
+@media(max-width:768px){
+    :root{
+        --text-3xl: 56px;
+    }
+}
+@media(max-width:567px) {
+    :root {
+        --text-3xl: 46px;
+    }
+}
