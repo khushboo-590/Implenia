@@ -142,10 +142,15 @@
         margin-left: 140px;
     }
     .mt-160{
-        margin-top: 167px;
+        margin-top: 170px;
+    }
+        
+}
+@media(max-width:1024px){
+    .btn{
+        z-index: 1;
     }
 }
-
 @media (max-width:991.98px) {
 
     .menu-list {
