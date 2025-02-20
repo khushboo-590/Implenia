@@ -58,10 +58,12 @@
 @media(max-width:768px){
     :root{
         --text-3xl: 56px;
+        --text-lg: 39px;
     }
 }
 @media(max-width:567px) {
     :root {
         --text-3xl: 46px;
+                --text-lg: 29px;
     }
 }
