@@ -129,7 +129,9 @@
 .z-2{
     z-index: 2;
 }
-
+.mt-40{
+    margin-top: 40px;
+}
 
 .mt-10 {
     margin-top: 10px;
@@ -155,7 +157,12 @@
 .mt-80 {
     margin-top: 80px;
 }
-
+.mt-100{
+    margin-top: 100px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
 .sub-heading {
     line-height: 62px;
     letter-spacing: -0.663056px;
@@ -234,7 +241,7 @@
 }
 
 .max-w-340 {
-    width: 340px;
+    max-width: 340px;
     padding: 20px;
     margin-top: 50px;
     position: absolute;
@@ -359,7 +366,9 @@
     .mb-14 {
         margin-bottom: 24px;
     }
-}
+        .max-w-340 {
+            display: none;
+}}
 
 @media(max-width:363px) {
     .mt-190 {
