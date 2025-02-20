@@ -149,6 +149,7 @@
 @media(max-width:1024px){
     .btn{
         z-index: 1;
+       
     }
 }
 @media (max-width:991.98px) {
@@ -225,5 +226,11 @@
 
     .heading {
         line-height: 60px;
+    }
+   
+}
+@media(max-width:320px){
+    .mt-190{
+        margin-top: 270px;
     }
 }
