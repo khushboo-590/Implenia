@@ -4,6 +4,10 @@
     font-family: 'Source Sans Pro';
     src: url(/assets/font/source-sans-pro.bold.ttf);
 }
+@font-face {
+    font-family: 'Source Sans Pro.light';
+    src: url(/assets/font/source-sans-pro.light.ttf);
+}
 
 .fw-700 {
     font-weight: 700;
@@ -17,6 +21,7 @@
     width: 100%;
     top: 0;
     right: 0;
+    height: 100vh;
 }
 
 .links {
@@ -54,12 +59,12 @@
     padding-bottom: 18px;
 }
 
-.ml-100 {
-    margin-left: 100px;
+.ml-80 {
+    margin-left: 80px;
 }
 
-.mt-160 {
-    margin-top: 160px;
+.mt-230 {
+    margin-top: 230px;
 }
 
 .pb-10 {
@@ -136,12 +141,36 @@
 .mt-190 {
     margin-top: 200px;
 }
-.mt-80{
+
+/* ----section-1--- */
+
+.mt-80 {
     margin-top: 80px;
 }
+
+.sub-heading {
+    line-height: 62px;
+    letter-spacing: -0.663056px;
+}
+
+.max-w-1090 {
+    max-width: 1090px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.sub-heading-content {
+    line-height: 27px;
+    letter-spacing: -0.284167px;
+opacity: 80%;
+
+}
+
 @media(max-width:1444px) {
-    .ml-100 {
-        margin-left: 140px;
+    .ml-80 {
+        margin-left: 130px;
     }
 
     .mt-160 {
@@ -216,7 +245,7 @@
         transform-origin: left;
     }
 
-    .ml-100 {
+    .ml-80 {
         margin-left: 0;
     }
 
