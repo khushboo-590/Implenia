@@ -525,7 +525,8 @@
     height: 27px;
     border-radius: 13.5px;
     top: 18px;
-    left: 16px;
+    left: 19%;
+    overflow: hidden;
 }
 
 .accordion-heading {
@@ -881,3 +882,4 @@ input[type="message"] {
         }
 
     }
+}
