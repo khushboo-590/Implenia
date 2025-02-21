@@ -5,3 +5,4 @@ menuIcon.addEventListener("click", () => {
     let activeNav = menuList.hasAttribute("class", "show");
     if (activeNav) { menuIcon.classList.toggle("active") };
 })
+

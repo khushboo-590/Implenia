@@ -1,4 +1,4 @@
-@import url(./root.css);
+@import url(/assets/css/root.css);
 
 @font-face {
     font-family: 'Source Sans Pro';
@@ -58,8 +58,6 @@
 .gap-38 {
     gap: 38px;
 }
-
-
 
 .py-18 {
     padding-top: 18px;
@@ -158,8 +156,8 @@
     max-width: 1440px;
 }
 
-.mt-200 {
-    margin-top: 200px;
+.mt-220 {
+    margin-top: 220px;
 }
 
 /* ----section-1--- */
@@ -289,8 +287,6 @@
     z-index: 1;
 }
 
-
-
 .iframe-container iframe {
     top: 0;
     left: 0;
@@ -310,6 +306,10 @@
     color: #000000;
 }
 
+.viedo-content:hover {
+    border: 2px solid #000000;
+}
+
 .card {
     max-width: 323px;
     border: 2px solid#000000;
@@ -318,8 +318,19 @@
 
 }
 
-.card:hover {
+.card-1:hover {
     border: 2px solid #FF132D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-2:hover {
+    border: 2px solid #009FE3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-3:hover {
+    border: 2px solid #FEBE32;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Validate {
@@ -530,13 +541,13 @@
         max-width: 240px;
         top: 45%;
     }
+
+  
 }
 
+@media(max-width:380px) {
 
-
-@media(max-width:363px) {
-
-    .mt-200 {
+    .mt-220 {
         margin-top: 150px;
     }
 
