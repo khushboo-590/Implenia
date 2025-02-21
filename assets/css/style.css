@@ -435,8 +435,8 @@
 }
 
 .max-auto {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .max-w-795 {
@@ -525,8 +525,9 @@
     height: 27px;
     border-radius: 13.5px;
     top: 18px;
-    left: 19%;
+    left: 30px;
     overflow: hidden;
+
 }
 
 .accordion-heading {
@@ -574,14 +575,16 @@
 }
 
 .bg-light-white .accordion-button:not(.collapsed)::after {
-    background-image: url(/assets/images/up.png);
+    background-image: url(/assets/images/svg/up.svg);
     background-repeat: no-repeat;
     transform: rotate(90deg);
+    align-items: center;
 }
 
 .bg-light-white .accordion-button.collapsed::after {
-    background-image: url(/assets/images/up.png);
+    background-image: url(/assets/images/svg/up.svg);
     background-repeat: no-repeat;
+    align-items: center;
 
 
 }
@@ -629,6 +632,11 @@
     font-family: 'Source Sans Pro.bold';
 }
 
+.my-60 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 input[type="email"] {
 
     font-family: "Roboto",
@@ -638,16 +646,17 @@ input[type="email"] {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: -0.189444px;
-    padding: 17px 107px 17px 19px;
+    padding: 17px 10px;
     color: #000000;
     background-color: #FFFFFF;
-    max-width: 189px;
+    /* width: 189px; */
     margin-top: 30px;
     border: none;
+    width: 100%;
 
 }
 
-input[type="message"] {
+input[type="textarea"] {
 
     font-family: "Roboto",
         serif;
@@ -658,10 +667,11 @@ input[type="message"] {
     letter-spacing: -0.189444px;
     background-color: #FFFFFF;
     color: #000000;
-    max-width: 273px;
+    /* width: 273px; */
     margin-top: 10px;
     border: none;
-    padding: 18px 157px 87px 15px;
+    width: 100%;
+    padding: 18px 10px 87px 15px;
 }
 
 .button {
@@ -675,7 +685,6 @@ input[type="message"] {
     color: #FFFFFF;
     background: #FF132D;
     margin-top: 10px;
-    margin-left: 178px;
     border: none;
     padding: 9px 21px 10px 22px;
 }
@@ -862,24 +871,28 @@ input[type="message"] {
 
     }
 
-    @media(max-width:380px) {
-
-        .mt-220 {
-            margin-top: 150px;
-        }
-
-        :root {
-            --text-3xl: 36px;
-        }
-
-        .ml-70 {
-            margin-left: 10px;
-        }
-
-        .silder-content {
-            font-size: 18px;
-            line-height: 25px;
-        }
-
+    .space {
+        margin-top: 20px;
     }
+}
+
+@media(max-width:380px) {
+
+    .mt-220 {
+        margin-top: 150px;
+    }
+
+    :root {
+        --text-3xl: 36px;
+    }
+
+    .ml-70 {
+        margin-left: 10px;
+    }
+
+    .silder-content {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
 }
