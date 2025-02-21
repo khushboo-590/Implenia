@@ -6,3 +6,18 @@ menuIcon.addEventListener("click", () => {
     if (activeNav) { menuIcon.classList.toggle("active") };
 })
 
+
+$(document).ready(function () {
+    $('.my-file').slick({
+        dots: true,
+        infinite: true,
+        speed: 250,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: false,
+        nextArrow: false,
+        dots:false,
+
+    });
+});
