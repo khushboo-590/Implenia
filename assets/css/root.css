@@ -12,6 +12,9 @@
 --white-color: #FFFFFF;
 --light-black-color:#1D1D1B;
 --light-white-color: #F5F5F5;
+--red-color:#FF132D;
+--blue-color: #009FE3;
+--golden-color: #FEBE32;
 }
 
 .fs-3xl{
@@ -28,11 +31,19 @@
      font-size: var(--text-lg);
  }
  .fs-xl {
-     font-size: var(--text-xl);
- }
+        font-size: var(--text-xl);
+    }
 
 .fc-black{
     color: var(--black-color);
+}
+.fc-red {
+    color: var(--red-color);
+}.fc-golden {
+    color: var(--golden-color);
+}
+.fc-blue{
+    color:var(--blue-color);
 }
 .fc-yellow {
     color: var(--yellow-color);
@@ -54,16 +65,4 @@
 }
 .font-family{
     font-family: 'Source Sans Pro';
-}
-@media(max-width:768px){
-    :root{
-        --text-3xl: 56px;
-        --text-lg: 39px;
-    }
-}
-@media(max-width:567px) {
-    :root {
-        --text-3xl: 46px;
-                --text-lg: 29px;
-    }
 }
