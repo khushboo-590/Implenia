@@ -37,6 +37,9 @@
 .fc-black{
     color: var(--black-color);
 }
+.bg-black{
+    background-color: var(--black-color);
+}
 .fc-red {
     color: var(--red-color);
 }.fc-golden {
