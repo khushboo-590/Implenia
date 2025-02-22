@@ -13,11 +13,10 @@ $(document).ready(function () {
         infinite: true,
         speed: 250,
         slidesToShow: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: false,
         nextArrow: false,
-        dots:false,
 
     });
 });
